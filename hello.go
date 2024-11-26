@@ -1,5 +1,7 @@
 package hello
 
-func GetHelloMessage() string {
-	return "Hello World from Go Modules!"
+import "fmt"
+
+func GetHelloMessage(name string) string {
+	return fmt.Sprintf("Hello World from Go Modules! My name is: %s", name)
 }
