@@ -1,5 +1,5 @@
 package main
 
-func getHelloMessage() string {
+func GetHelloMessage() string {
 	return "Hello World!"
 }
