@@ -1,5 +1,5 @@
 package main
 
 func GetHelloMessage() string {
-	return "Hello World!"
+	return "Hello World from Go Modules!"
 }
